@@ -1,4 +1,4 @@
-baseurl = "https://devcows.github.io/hugo-universal-theme/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
+baseurl = "/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
 title = "教師のためのAI・DS研究開発センター"
 theme = "hugo-universal-theme"
 themesDir = "themes"
@@ -40,7 +40,7 @@ pluralizelisttitles = false
 
 [[menu.main]]
     name       = "センター紹介"
-    url        = "/"
+    url        = "/center/"
     weight     = 1
     parent     = "menu.2"
 
