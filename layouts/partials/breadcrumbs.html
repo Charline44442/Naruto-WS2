@@ -3,26 +3,34 @@
         <div class="row">
             <div class="col-md-12">
                 <!-- Titre de la page -->
-                <h1>{{ .Title }}</h1>
+                <h1>
+                    {{ if eq .Section "blog" }}
+                        カスタムタイトル (breadcrumb..html)
+                    {{ else }}
+                        {{ .Title }}
+                    {{ end }}
+                </h1>
                 
                 <!-- Fil d'Ariane -->
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <!-- Lien vers la page d'accueil -->
                         <li class="breadcrumb-item"><a href="{{ .Site.BaseURL }}">HOME</a></li>
-                        
-                        <!-- Vérifie si .CurrentSection existe -->
-                        {{ if .CurrentSection }}
-                            <!-- Vérifie si .Parent existe -->
-                            {{ if .CurrentSection.Parent }}
-                                {{ range .CurrentSection.Parent.Pages }}
-                                    <li class="breadcrumb-item"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                
+                        <!-- Vérifie si la page est de type "list" -->
+                        {{ if eq .Kind "section" }}
+                            <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+                        {{ else }}
+                            <!-- Parcours des sections parentes -->
+                            {{ if .CurrentSection }}
+                                {{ if .CurrentSection.Parent }}
+                                    <li class="breadcrumb-item"><a href="{{ .CurrentSection.Parent.Permalink }}">{{ .CurrentSection.Parent.Title }}</a></li>
                                 {{ end }}
                             {{ end }}
+                
+                            <!-- Page actuelle -->
+                            <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
                         {{ end }}
-                        
-                        <!-- Page actuelle -->
-                        <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
                     </ol>
                 </nav>
             </div>

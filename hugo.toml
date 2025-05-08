@@ -63,15 +63,21 @@ pluralizelisttitles = false
     weight     = 3
 
 [[menu.main]]
-    name       = "センター会議"
-    url        = "/"
+    name       = "センターの活動"
+    url        = "/blog/"
     weight     = 1
+    parent     = "menu.3"
+
+[[menu.main]]
+    name       = "センター会議"
+    url        = "/activities/"
+    weight     = 2
     parent     = "menu.3"
 
 [[menu.main]]
     name       = "成果"
     url        = "/"
-    weight     = 2
+    weight     = 3
     parent     = "menu.3"
 
 #[[menu.main]]
@@ -161,7 +167,7 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "アクセス"
     identifier = "menu.access"
-    url        = "/blog/"
+    url        = "/"
     weight     = 5
 
 [[menu.main]]
@@ -209,7 +215,7 @@ pluralizelisttitles = false
     url = "mailto:hello@universal.com"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
-[params]
+[params]   
     viewMorePostLink = "/blog/"
     author = "DevCows"
     defaultKeywords = ["devcows", "hugo", "go"]
