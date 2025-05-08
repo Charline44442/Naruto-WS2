@@ -2,9 +2,9 @@ baseurl = "/" # Configure URL. if using gh-pages https://github.com/<username>/h
 title = "教師のためのAI・DS研究開発センター"
 theme = "hugo-universal-theme"
 themesDir = "themes"
-languageCode = "en-us"
+languageCode = "ja"
 # Site language. Available translations in the theme's `/i18n` directory.
-defaultContentLanguage = "en"
+defaultContentLanguage = "ja"
 
 # number of words of summarized post content (default 70)
 summaryLength = 70
@@ -42,6 +42,12 @@ pluralizelisttitles = false
     name       = "センター紹介"
     url        = "/center/"
     weight     = 1
+    parent     = "menu.2"
+
+[[menu.main]]
+    name       = "センター規則"
+    url        = "/rules/"
+    weight     = 3
     parent     = "menu.2"
 
 [[menu.main]]
@@ -271,7 +277,7 @@ pluralizelisttitles = false
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    dropdown_mouse_over = true
+    dropdown_mouse_over = false
 
     disabled_logo = false
     logo_text = "Universal"

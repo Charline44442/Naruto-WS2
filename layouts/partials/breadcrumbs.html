@@ -1,0 +1,33 @@
+<div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Titre de la page -->
+                <h1>{{ .Title }}</h1>
+                
+                <!-- Fil d'Ariane -->
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <!-- Lien vers la page d'accueil -->
+                        <li class="breadcrumb-item"><a href="{{ .Site.BaseURL }}">HOME</a></li>
+                        
+                        <!-- Vérifie si .CurrentSection existe -->
+                        {{ if .CurrentSection }}
+                            <!-- Vérifie si .Parent existe -->
+                            {{ if .CurrentSection.Parent }}
+                                {{ range .CurrentSection.Parent.Pages }}
+                                    <li class="breadcrumb-item"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                                {{ end }}
+                            {{ end }}
+                        {{ end }}
+                        
+                        <!-- Page actuelle -->
+                        <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+

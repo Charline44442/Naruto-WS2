@@ -1,5 +1,6 @@
 {{ if isset .Site.Params "features" }}
 {{ if .Site.Params.features.enable }}
+<link rel="stylesheet" href="/css/features.css">
 {{ if isset .Site.Data "features" }}
 {{ if gt (len .Site.Data.features) 0 }}
 <section class="bar background-white">
@@ -40,10 +41,12 @@
                             <a href="{{ $element.url }}">
                             {{ end }}
                                 <div class="icon">
-                                    {{ if $element.image }}
+                                    {{ if $element.url }}
+                                        <a href="{{ $element.url }}">
+                                            <img src="{{ $element.image | relURL }}" alt="{{ $element.name }}" class="feature-image">
+                                        </a>
+                                    {{ else }}
                                         <img src="{{ $element.image | relURL }}" alt="{{ $element.name }}" class="feature-image">
-                                    {{ else if $element.icon }}
-                                        <i class="{{ $element.icon }}"></i>
                                     {{ end }}
                                 </div>
                             {{ with $element.url }}

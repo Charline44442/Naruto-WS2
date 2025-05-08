@@ -23,43 +23,11 @@
     justify-content: space-between; /* Aligne le contenu verticalement */
 }
 
-
-.feature-image {
-    width: 280px; /* Ajustez la taille selon vos besoins */
-    height: auto;
-    display: block;
-    margin: -10px auto 0;
-    border-radius: 8px; /* Optionnel : coins arrondis */
-  }
-
-  .box-simple h3,
-.box-simple p {
-    background-color: white; /* Fond blanc */
-    padding: 10px; /* Ajoute de l'espace autour du texte */
-    border-radius: 5px; /* Coins arrondis */
-    display: inline-block; /* Ajuste la largeur au contenu */
-    position: relative; /* Nécessaire pour le positionnement */
-    z-index: 1; /* Place le texte au-dessus des autres éléments */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
-}
-
-.feature-image {
-    z-index: 0; /* Place l'image derrière */
-    position: relative; /* Nécessaire pour que z-index fonctionne */
-}
-
 .clients-subtitle {
     text-align: center; /* Centre le texte horizontalement */
     margin: 0 auto; /* Ajuste les marges */
     font-size: 1.2em; /* Optionnel : ajuste la taille de la police */
     color: #333; /* Optionnel : ajuste la couleur du texte */
-}
-
-.features-subtitle {
-    text-align: center; /* Centre le texte horizontalement */
-    margin: 10px auto; /* Ajoute un espacement autour */
-    font-size: 1.2em; /* Ajuste la taille de la police */
-    color: #555; /* Optionnel : Ajuste la couleur du texte */
 }
 
 .recent-posts-subtitle {
@@ -109,19 +77,3 @@
     width: 100%; /* Assure que la ligne occupe toute la largeur */
 }
 
-/* personnalisation de la presentation du staff*/ 
-.staff {
-    padding: 20px;
-    background-color: #f9f9f9;
-}
-
-.staff h1 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.staff-list {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}

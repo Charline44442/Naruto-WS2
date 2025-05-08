@@ -1,5 +1,5 @@
-weight: 4
-name: "機構規則"
+weight: 3
+name: "センター規則"
 image: "img/institution.jpg"
-url: ""
-description: "機構規則をご覧になりたい場合はここをクリックしてください"
+url: "/rules/"
+description: "センター規則をご覧になりたい場合はここをクリックしてください"

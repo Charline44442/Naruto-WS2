@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-  <head>
-    {{ partial "headers.html" . }}
-    {{ partial "custom_headers.html" . }}
-  </head>
+<head>
+  {{ partial "headers.html" . }}
+  {{ partial "custom_headers.html" . }}
+  <link rel="stylesheet" href="/css/staff.css">
+</head>
 
   <body>
 
@@ -28,15 +29,28 @@
 
                     <div class="col-md-12">
 
-                        <div id="custom-content">
-                            <h2>{{ .Description }}</h2>
-                            <ul>
-                                {{ range .Params.professors }}
-                                <img src="{{ .image }}" alt="{{ .name }}" style="width: 100px; height: auto;">
-                                <li>{{ .name }} - {{ .title }}</li>
+                      <div id="custom-content">
+                        <h2>{{ .Description }}</h2>
+                    
+                        {{ range .Params.groups }}
+                        <div class="group">
+                            <h3>{{ .title }}</h3>
+                            <div class="row">
+                                {{ range .members }}
+                                <div class="col-md-3 col-sm-6 person">
+                                    <div class="person-card">
+                                        <img src="{{ .image }}" alt="{{ .name }}" style="width: 100%; height: auto; border-radius: 8px;">
+                                        <div class="person-info">
+                                            <p class="person-name">{{ .name }}</p>
+                                            <p class="person-title">{{ .title }}</p>
+                                        </div>
+                                    </div>
+                                </div>
                                 {{ end }}
-                            </ul>
+                            </div>
                         </div>
+                        {{ end }}
+                    </div>
 
                     </div>
 
