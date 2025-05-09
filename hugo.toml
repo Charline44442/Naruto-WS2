@@ -47,19 +47,19 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "センターについて"
     identifier = "menu.3"
-    url        = "/"
+    url        = "/center/"
     weight     = 3
 
 [[menu.main]]
     name       = "スタッフ紹介"
     identifier = "menu.4"
-    url        = "#staff"
+    url        = "/#staff"
     weight     = 4  
     
 [[menu.main]]
     name       = "研究紹介"
     identifier = "menu.5"
-    url        = "/"
+    url        = "/research/"
     weight     = 5
 
 # Top bar social links menu

@@ -121,3 +121,40 @@
     font-weight: bold;
     color: #007bff;
 }
+
+/* Conteneur principal pour chaque recherche */
+.research-item {
+    background-color: #f9f9f9; /* Couleur de fond */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre */
+    margin-bottom: 30px; /* Espacement entre les conteneurs */
+    text-align: center;
+}
+
+/* Image de la recherche */
+.research-image {
+    width: 50%; /* La largeur de l'image est la moitié du conteneur */
+    height: auto; /* Maintient les proportions de l'image */
+    margin-bottom: 15px; /* Espacement sous l'image */
+    border-radius: 8px; /* Coins arrondis */
+}
+
+/* Titre de la recherche */
+.research-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Date de la recherche */
+.research-date {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 15px;
+}
+
+/* Description de la recherche */
+.research-description {
+    font-size: 1em;
+    color: #666;
+}

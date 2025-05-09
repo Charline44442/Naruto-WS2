@@ -1,0 +1,33 @@
+<section id="research" class="bar background-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Titre -->
+                <div class="heading text-center">
+                    <h2>研究紹介</h2>
+                </div>
+                <!-- Liste des recherches -->
+                <div class="row">
+                    {{ range where .Site.RegularPages "Section" "research" }}
+                    <div class="col-md-4 col-sm-6">
+                        <div class="research-item text-center">
+                            <!-- Image -->
+                            {{ if .Params.image }}
+                            <div class="research-photo">
+                                <img src="{{ .Params.image }}" alt="{{ .Title }}" class="img-responsive" style="border-radius: 8px; width: 50%; height: auto; margin: 0 auto;">
+                            </div>
+                            {{ end }}
+                            <!-- Titre -->
+                            <h3>{{ .Title }}</h3>
+                            <!-- Date -->
+                            <p class="research-date">{{ .Date.Format "2006年1月2日" }}</p>
+                            <!-- Description -->
+                            <p class="research-description">{{ .Summary }}</p>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
