@@ -33,155 +33,34 @@ pluralizelisttitles = false
     weight     = 1
 
 [[menu.main]]
-    name       = "センターの概要"
+    name       = "ニュース"
     identifier = "menu.2"
-    url        = "/img/template-easy-customize.png"
+    url        = "/blog/"
     weight     = 2
 
-[[menu.main]]
-    name       = "センター紹介"
-    url        = "/center/"
-    weight     = 1
-    parent     = "menu.2"
+#[[menu.main]]
+#    name       = "センター紹介"
+#    url        = "/"
+#    weight     = 1
+#    parent     = "menu.2"
 
 [[menu.main]]
-    name       = "センター規則"
-    url        = "/rules/"
+    name       = "センターについて"
+    identifier = "menu.3"
+    url        = "/"
     weight     = 3
-    parent     = "menu.2"
 
 [[menu.main]]
     name       = "スタッフ紹介"
-    url        = "/staff/"
-    weight     = 2
-    parent     = "menu.2"
-
+    identifier = "menu.4"
+    url        = "#staff"
+    weight     = 4  
+    
 [[menu.main]]
-    name       = "センターの活動"
-    identifier = "menu.3"
-    url        = "/img/template-easy-customize.png"
-    weight     = 3
-
-[[menu.main]]
-    name       = "センターの活動"
-    url        = "/blog/"
-    weight     = 1
-    parent     = "menu.3"
-
-[[menu.main]]
-    name       = "センター会議"
-    url        = "/activities/"
-    weight     = 2
-    parent     = "menu.3"
-
-[[menu.main]]
-    name       = "成果"
-    url        = "/"
-    weight     = 3
-    parent     = "menu.3"
-
-#[[menu.main]]
-#    name       = "Portfolio"
-#    identifier = "menu.portfolio"
-#    url        = "/img/template-homepage.png"
-#    weight     = 4
-
-#[[menu.main]]
-#    name       = "Portfolio"
-#    identifier = "section.portfolio"
-#    url        = ""
-#    weight     = 1
-#    parent     = "menu.portfolio"
-#    post       = 1
-
-#[[menu.main]]
-#    name       = "2 Columns"
-#    url        = ""
-#    weight     = 1
-#    parent     = "section.portfolio"
-
-#[[menu.main]]
-#    name       = "2 Columns With Negative Space"
-#    url        = ""
-#    weight     = 2
-#    parent     = "section.portfolio"
-
-#[[menu.main]]
-#    name       = "3 Columns"
-#    url        = ""
-#    weight     = 3
-#    parent     = "section.portfolio"
-
-#[[menu.main]]
-#    name       = "3 Columns With Negative Space"
-#    url        = ""
-#    weight     = 4
-#    parent     = "section.portfolio"
-
-#[[menu.main]]
-#    name       = "4 Columns"
-#    url        = ""
-#    weight     = 5
-#    parent     = "section.portfolio"
-
-#[[menu.main]]
-#    name       = "4 Columns With Negative Space"
-#    url        = ""
-#    weight     = 6
-#    parent     = "section.portfolio"
-
-#[[menu.main]]
-#    name       = "Portfolio - detail"
-#    url        = ""
-#    weight     = 7
-#    parent     = "section.portfolio"
-
-#[[menu.main]]
-#    name       = "Portfolio - detail 2"
-#    url        = ""
-#    weight     = 8
-#    parent     = "section.portfolio"
-
-#[[menu.main]]
-#    name       = "About"
-#    identifier = "section.about"
-#    url        = ""
-#    weight     = 2
-#    parent     = "menu.portfolio"
-#    post       = 2
-
-#[[menu.main]]
-#    name       = "Marketing"
-#    identifier = "section.marketing"
-#    url        = ""
-#    weight     = 3
-#    parent     = "menu.portfolio"
-#    post       = 2
-
-#[[menu.main]]
-#    name       = "Packages"
-#    url        = ""
-#    weight     = 1
-#    parent     = "section.marketing"
-
-[[menu.main]]
-    name       = "アクセス"
-    identifier = "menu.access"
+    name       = "研究紹介"
+    identifier = "menu.5"
     url        = "/"
     weight     = 5
-
-[[menu.main]]
-    name       = "お問い合わせ"
-    identifier = "menu.contact"
-    url        = "/contact/"
-    weight     = 6
-
-[[menu.main]]
-    identifier = "サイトマップ"
-    name       = "faq"
-    url        = "/faq/"
-    weight     = 7
-
 
 # Top bar social links menu
 
@@ -342,8 +221,8 @@ pluralizelisttitles = false
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
     # For more information take a look at the README.
-    title = "INTRODUCTION"
-    subtitle = "教員養成DX推進機構"
+    title = "About"
+    subtitle = ""
 
 [params.testimonials]
     enable = true

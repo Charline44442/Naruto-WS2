@@ -1,0 +1,35 @@
+<section id="staff" class="bar background-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Titre -->
+                <div class="heading text-center">
+                    <h2>スタッフ紹介</h2>
+                </div>
+                <!-- Sous-titre -->
+                <p class="lead text-center">
+                    ここではスタッフの紹介を行います。
+                </p>
+                <!-- Liste des membres du staff -->
+                <div class="row">
+                    {{ range where .Site.RegularPages "Section" "staff" }}
+                    <div class="col-md-3 col-sm-6">
+                        <div class="staff-member text-center">
+                            <!-- Photo du staff -->
+                            <div class="staff-photo">
+                                <img src="{{ .Params.image }}" alt="{{ .Params.name }}" class="img-responsive" style="border-radius: 8px; width: 100%; height: auto;">
+                            </div>
+                            <!-- Conteneur pour les informations -->
+                            <div class="staff-info">
+                                <p class="staff-status">{{ .Params.status }}</p>
+                                <p class="staff-department">{{ .Params.department }}</p>
+                                <p class="staff-name">{{ .Params.name }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

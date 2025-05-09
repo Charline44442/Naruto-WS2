@@ -1,0 +1,51 @@
+{{ if isset .Site.Params "recent_posts" }}
+{{ if .Site.Params.recent_posts.enable }}
+<section class="bar background-white no-mb">
+    <div class="container">
+
+        <div class="col-md-12">
+            <div class="heading text-center">
+                <h2>{{ .Site.Params.recent_posts.title | markdownify }}</h2>
+            </div>
+
+            <p class="lead recent-posts-subtitle">
+                {{ .Site.Params.recent_posts.subtitle | markdownify }}
+            </p>
+
+            <!-- *** BLOG HOMEPAGE *** -->
+
+            <div class="row">
+                {{ $posts := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+                {{ range first 4 $posts.Pages }}
+                <div class="col-md-12">
+                    <div class="recent-post">
+                        <!-- Conteneur pour la date et le titre -->
+                        <div class="post-header">
+                            <!-- Affiche la date -->
+                            {{ if .Params.date }}
+                            <span class="post-date">{{ .Date.Format "2006年1月2日" }}</span>
+                            {{ end }}
+            
+                            <!-- Affiche le titre -->
+                            <span class="post-title">
+                                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                            </span>
+                        </div>
+            
+                        <!-- Ligne de séparation -->
+                        <hr class="post-divider">
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            <!-- /.row -->
+
+            <!-- *** BLOG HOMEPAGE END *** -->
+
+        </div>
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.bar -->
+{{ end }}
+{{ end }}
