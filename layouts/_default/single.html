@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  <head>
+    {{ partial "headers.html" . }}
+  </head>
+
+  <body>
+
+    <div id="all">
+
+        {{ partial "top.html" . }}
+
+        {{ partial "nav.html" . }}
+
+        <div id="content">
+            <div class="container">
+
+                <!-- Suppression des colonnes, contenu centré -->
+                <div id="blog-post" style="max-width: 800px; margin: 0 auto;">
+
+                    <!-- Ajout d'un espace avant le footer -->
+                    <div style="height: 40px;"></div>
+
+                    <!-- Titre de l'article -->
+                    <h1 class="post-title" style="text-align: center;">{{ .Title }}</h1>
+
+                    <!-- Auteur et date à droite sous le titre -->
+                    <div style="text-align: right; margin-bottom: 25px;">
+                      {{ with .Params.authors }}
+                        {{ $author := index . 0 }}
+                        {{ with $.Params.authorlink }}
+                          <a href="{{ . }}" target="_blank" rel="noopener" style="font-weight:600;">{{ $author }}</a>
+                        {{ else }}
+                          <span style="font-weight:600;">{{ $author }}</span>
+                        {{ end }}
+                      {{ end }}
+                      {{ if .Date }}
+                        <span style="color:#888; margin-left:10px;">
+                          {{ .Date.Format "2006年1月2日" }}
+                        </span>
+                      {{ end }}
+                    </div>
+
+                    <!-- Texte de l'article -->
+                    <div id="post-content">
+                      {{ .Content }}
+                    </div>
+
+                    <!-- Bouton retour à ニュース -->
+                    <div style="text-align: right; margin-top: 40px;">
+                      <a href="/blog/" class="btn btn-success">ニュースに戻る</a>
+                    </div>
+
+                    <!-- Ajout d'un espace avant le footer -->
+                    <div style="height: 40px;"></div>
+
+                </div>
+                <!-- /#blog-post -->
+
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /#content -->
+
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>

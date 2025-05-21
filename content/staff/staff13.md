@@ -1,6 +1,6 @@
 +++
 title = "CARLOT Charline"
-image = "/img/staff/staff1.jpg"
+image = "/img/staff/mascotte1.png"
 status = "。。。"
 department = "。。。"
 name = "CARLOT Charline"

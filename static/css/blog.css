@@ -24,5 +24,5 @@
 /* Style lorsque le curseur passe dessus */
 .post-title a:hover {
     color: #007bff; /* Couleur au survol (par exemple, bleu) */
-    /* text-decoration: underline; Optionnel : ajoute un soulignement */
+    text-decoration: none; /* Supprime le soulignement */
 }

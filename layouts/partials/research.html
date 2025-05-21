@@ -1,11 +1,8 @@
-<section id="research" class="bar background-white">
+<section id="research" class="bar background-white" style="padding-top:0; margin-top:0;">
+    {{ partial "breadcrumbs.html" . }}
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <!-- Titre -->
-                <div class="heading text-center">
-                    <h2>研究紹介</h2>
-                </div>
                 <!-- Liste des recherches -->
                 <div class="row">
                     {{ range where .Site.RegularPages "Section" "research" }}

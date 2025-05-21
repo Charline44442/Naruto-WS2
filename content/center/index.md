@@ -5,6 +5,7 @@ draft = false
 type = "center"
 layout = "single"
 menu.main = { name = "センターについて", identifier = "menu.3", weight = 3 }
+breadcrumb = "センターの紹介"
 +++
 
 ### ミッション

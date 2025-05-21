@@ -15,7 +15,7 @@ pluralizelisttitles = false
 [services]
     # Enable comments by entering your Disqus shortname
     [services.disqus]
-        shortname = "devcows"
+        shortname = ""
     # Enable Google Analytics by entering your tracking code
     [services.googleAnalytics]
         id = ""
@@ -167,8 +167,8 @@ pluralizelisttitles = false
     disabled_logo = false
     logo_text = "Universal"
 
-    logo = "img/DX.png"
-    logo_small = "img/DX.png"
+    logo = "img/naruto-logo.jpg"
+    logo_small = "img/naruto-logo.jpg"
     contact_url = "/contact" #changer le lien du bouton contact ?
     address = """<p class="text-uppercase">
         <br>電話：088-687-6194
@@ -224,22 +224,6 @@ pluralizelisttitles = false
     title = "About"
     subtitle = ""
 
-[params.testimonials]
-    enable = true
-    # All testimonials are defined in their own files. You can find example items
-    # at 'exampleSite/data/testimonials'.
-    # For more information take a look at the README.
-    title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
-
-# [params.see_more]
-#    enable = true
-#    icon = "far fa-file-alt"
-#    title = "Do you want to see more?"
-#    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-#    link_url = "#"
-#    link_text = "Check other homepages"
-
 [params.clients]
     enable = true
     # All clients are defined in their own files. You can find example items
@@ -250,8 +234,8 @@ pluralizelisttitles = false
 
 [params.recent_posts]
     enable = true
-    title = "NEWS"
-    subtitle = "新着情報"
+    title = "NEWS/新着情報"
+    subtitle = ""
     hide_summary = true
 
 [params.footer.recent_posts]
