@@ -25,21 +25,17 @@
     text-align: center;
 }
 
-/*.person-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 10px;
-    background-color: #f9f9f9;
-}*/
-
-.person-card img {
-    width: 150px; /* Largeur fixe */
-    height: 150px; /* Hauteur fixe */
-    object-fit: cover; /* Recadre l'image pour remplir la zone */
+/* Photo du staff */
+.staff-photo img {
     border-radius: 8px; /* Coins arrondis */
     border: 1px solid #ddd; /* Bordure légère */
-    display: block; /* Assure que l'image est un bloc */
-    margin: 0 auto; /* Centre l'image horizontalement */
+    width: 100px !important; 
+    height: 130px !important; 
+    object-fit: cover !important; /* Recadre l'image pour remplir la zone */
+    margin: 0 auto; /* Centre la photo horizontalement */
+    display: block; /* Assure que l'image est un bloc centré */
+    position: relative; /* Positionne la photo dans le flux normal */
+    z-index: 1; /* Place la photo derrière le conteneur d'informations */
 }
 
 .person-info {
@@ -53,5 +49,5 @@
 
 .person-title {
     color: #555;
-    font-size: 0.9em;
+    font-size: 1.1em;
 }

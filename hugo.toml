@@ -234,7 +234,7 @@ pluralizelisttitles = false
 
 [params.recent_posts]
     enable = true
-    title = "NEWS/新着情報"
+    title = "新着情報"
     subtitle = ""
     hide_summary = true
 
