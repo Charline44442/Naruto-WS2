@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 教師のためのAI・DS研究開発センター</title>
-    <link>//localhost:1313/categories/</link>
+    <link>http://localhost:1313/erdads/categories/</link>
     <description>Recent content in Categories on 教師のためのAI・DS研究開発センター</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/erdads/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>教育研究科</title>
-      <link>//localhost:1313/categories/%E6%95%99%E8%82%B2%E7%A0%94%E7%A9%B6%E7%A7%91/</link>
+      <link>http://localhost:1313/erdads/categories/%E6%95%99%E8%82%B2%E7%A0%94%E7%A9%B6%E7%A7%91/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      <guid>//localhost:1313/categories/%E6%95%99%E8%82%B2%E7%A0%94%E7%A9%B6%E7%A7%91/</guid>
+      <guid>http://localhost:1313/erdads/categories/%E6%95%99%E8%82%B2%E7%A0%94%E7%A9%B6%E7%A7%91/</guid>
       <description></description>
     </item>
     <item>
       <title>研究</title>
-      <link>//localhost:1313/categories/%E7%A0%94%E7%A9%B6/</link>
+      <link>http://localhost:1313/erdads/categories/%E7%A0%94%E7%A9%B6/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      <guid>//localhost:1313/categories/%E7%A0%94%E7%A9%B6/</guid>
+      <guid>http://localhost:1313/erdads/categories/%E7%A0%94%E7%A9%B6/</guid>
       <description></description>
     </item>
   </channel>

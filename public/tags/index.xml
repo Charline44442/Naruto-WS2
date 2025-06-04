@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 教師のためのAI・DS研究開発センター</title>
-    <link>//localhost:1313/tags/</link>
+    <link>http://localhost:1313/erdads/tags/</link>
     <description>Recent content in Tags on 教師のためのAI・DS研究開発センター</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 01 Aug 2021 21:29:20 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/erdads/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>研究</title>
-      <link>//localhost:1313/tags/%E7%A0%94%E7%A9%B6/</link>
+      <link>http://localhost:1313/erdads/tags/%E7%A0%94%E7%A9%B6/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      <guid>//localhost:1313/tags/%E7%A0%94%E7%A9%B6/</guid>
+      <guid>http://localhost:1313/erdads/tags/%E7%A0%94%E7%A9%B6/</guid>
       <description></description>
     </item>
     <item>
       <title>鳴門教育大学</title>
-      <link>//localhost:1313/tags/%E9%B3%B4%E9%96%80%E6%95%99%E8%82%B2%E5%A4%A7%E5%AD%A6/</link>
+      <link>http://localhost:1313/erdads/tags/%E9%B3%B4%E9%96%80%E6%95%99%E8%82%B2%E5%A4%A7%E5%AD%A6/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      <guid>//localhost:1313/tags/%E9%B3%B4%E9%96%80%E6%95%99%E8%82%B2%E5%A4%A7%E5%AD%A6/</guid>
+      <guid>http://localhost:1313/erdads/tags/%E9%B3%B4%E9%96%80%E6%95%99%E8%82%B2%E5%A4%A7%E5%AD%A6/</guid>
       <description></description>
     </item>
   </channel>

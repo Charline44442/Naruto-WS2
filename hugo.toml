@@ -1,4 +1,4 @@
-baseurl = "/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
+baseURL = "https://charline44442.github.io/erdads/"
 title = "教師のためのAI・DS研究開発センター"
 theme = "hugo-universal-theme"
 themesDir = "themes"
