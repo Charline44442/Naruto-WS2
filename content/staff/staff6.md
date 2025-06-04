@@ -1,9 +1,9 @@
 +++
 title = "内山　有美"
-image = "/img/staff/naruto.png"
+image = "/img/staff/内山有美.jpg"
 profile_url = "https://www.naruto-u.ac.jp/edb/researcher/2024032500053/"
 status = "准教授"
 department = ""
-name = "内川　有美"
+name = "内山　有美"
 weight = 6
 +++

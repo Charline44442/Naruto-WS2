@@ -2,7 +2,7 @@
 title = "益子　典文"
 image = "/img/staff/naruto.png"
 profile_url = "https://researchmap.jp/read0019564"
-status = "岐阜大学教授<br>特命補佐（AI・DS推進担当：非常勤）"
+status = "岐阜大学教授・特命補佐（AI・DS推進担当：非常勤）"
 department = ""
 name = "益子　典文"
 weight = 2

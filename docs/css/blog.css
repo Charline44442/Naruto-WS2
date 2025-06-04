@@ -1,0 +1,28 @@
+/* Personnalisation de la page Blog */
+.post-header {
+    display: flex;
+    align-items: center; /* Aligne verticalement la date et le titre */
+    gap: 40px; /* Augmente l'espace horizontal entre la date et le titre */
+    margin-bottom: 10px; /* Ajoute un espacement en dessous du conteneur */
+}
+
+.post-date {
+    font-size: 0.9em;
+    color: #888;
+    white-space: nowrap; /* Empêche la date de se couper sur plusieurs lignes */
+    margin-right: 20px; /* Ajoute un espace supplémentaire à droite de la date */
+}
+
+/* Style par défaut pour le titre */
+.post-title a {
+    font-size: 1.5em;
+    color: #333; /* Couleur par défaut */
+    text-decoration: none; /* Supprime le soulignement */
+    transition: color 0.3s ease; /* Ajoute une transition fluide */
+}
+
+/* Style lorsque le curseur passe dessus */
+.post-title a:hover {
+    color: #007bff; /* Couleur au survol (par exemple, bleu) */
+    text-decoration: none; /* Supprime le soulignement */
+}

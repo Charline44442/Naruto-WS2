@@ -1,0 +1,53 @@
+/* personnalisation de la presentation du staff*/ 
+
+#custom-content {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.group {
+    margin-bottom: 40px;
+}
+
+.group h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.person {
+    text-align: center;
+}
+
+/* Photo du staff */
+.staff-photo img {
+    border-radius: 8px; /* Coins arrondis */
+    border: 1px solid #ddd; /* Bordure légère */
+    width: 100px !important; 
+    height: 130px !important; 
+    object-fit: cover !important; /* Recadre l'image pour remplir la zone */
+    margin: 0 auto; /* Centre la photo horizontalement */
+    display: block; /* Assure que l'image est un bloc centré */
+    position: relative; /* Positionne la photo dans le flux normal */
+    z-index: 1; /* Place la photo derrière le conteneur d'informations */
+}
+
+.person-info {
+    margin-top: 10px;
+}
+
+.person-name {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.person-title {
+    color: #555;
+    font-size: 1.1em;
+}
