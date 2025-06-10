@@ -5,5 +5,6 @@ profile_url = "https://www.naruto-u.ac.jp/edb/researcher/2022040400068/"
 status = "教授"
 department = ""
 name = "藤田　完"
+name_alpha = "FUJITA Mataki"
 weight = 11
 +++

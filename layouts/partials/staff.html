@@ -13,7 +13,7 @@
                 <!-- Liste des membres du staff -->
                 <div class="row">
                     {{ range where .Site.RegularPages "Section" "staff" }}
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-3 col-sm-6 staff-col">
                         {{ if .Params.profile_url }}
                         <a href="{{ .Params.profile_url }}" target="_blank" style="text-decoration:none; color:inherit; display:block;">
                         {{ end }}
@@ -23,10 +23,11 @@
                                     <img src="{{ .Params.image }}" alt="{{ .Params.name }}" class="img-responsive">
                                 </div>
                                 <!-- Conteneur pour les informations -->
-                                <div class="staff-info">
+                                <div class="staff-info staff-info-fixed">
                                     <p class="staff-department">{{ .Params.department }}</p>
                                     <p class="staff-statut">{{ .Params.status | safeHTML }}</p>
                                     <p class="staff-name">{{ .Params.name }}</p>
+                                    <p class="staff-name-alpha">{{ .Params.name_alpha }}</p>
                                 </div>
                             </div>
                         {{ if .Params.profile_url }}</a>{{ end }}

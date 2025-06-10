@@ -1,20 +1,3 @@
-/* your styles go here */
-/* Example site test */
-
-/*.box-image-text .image {
-    min-height: 190px;
-    max-height: 190px;
-} */
-
-/*.box-image-text .image img {
-    max-height: 190px;
-    margin: auto;
-} */
-
-/*.box-simple {
-    min-height: 230px;
-} */
-
 /* crumbread */
 
 #heading-breadcrumbs {
@@ -153,24 +136,6 @@
     margin: 15px 0;
 }
 
-/* Conteneur principal pour chaque membre */
-.staff-member {
-    position: relative; /* Permet de positionner les éléments enfants (photo et conteneur) */
-    margin-bottom: 30px;
-}
-
-/* Conteneur pour les informations */
-.staff-info {
-    background-color: rgba(249, 249, 249, 0.9); /* Couleur de fond avec légère transparence */
-    padding: 15px 18px; /* Augmente le padding vertical (haut et bas) */
-    border-radius: 8px;
-    margin-top: -50px; /* Décale le conteneur vers le haut pour chevaucher la photo */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ajoute une ombre */
-    text-align: center; /* Centre le texte à l'intérieur */
-    position: relative; /* Positionne le conteneur dans le flux normal */
-    z-index: 2; /* Place le conteneur au-dessus de la photo */
-}
-
 /* Style pour le statut */
 .staff-status {
     font-size: 0.9em;
@@ -184,13 +149,6 @@
     font-size: 0.8em;
     color: #666;
     margin-bottom: 5px;
-}
-
-/* Style pour le nom */
-.staff-name {
-    font-size: 1.1em;
-    font-weight: bold;
-    color: #007bff;
 }
 
 /* Conteneur principal pour chaque recherche */
@@ -241,11 +199,34 @@
   background-image: none !important;
 }
 
+/* Bouton principal utilisé pour "詳細を見る" et autres boutons similaires */
+.btn.btn-template-main {
+  background-color: #226c3a !important;   /* Vert personnalisé */
+  color: #fff !important;                 /* Texte blanc */
+  border-radius: 25px;                    /* Bords arrondis */
+  padding: 7px 15px;         /* <-- réduit la taille du bouton */
+  font-size: 0.75em;         /* <-- réduit la taille du texte */
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: none;
+  box-shadow: 0 2px 8px rgba(34,108,58,0.10);
+  transition: background 0.2s;
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+.btn.btn-template-main:hover,
+.btn.btn-template-main:focus {
+  background-color: #409b55 !important;   /* Vert plus clair au survol */
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
 /* Footer */
 #footer {
   padding-top: 10px !important;  /* augmente la hauteur en haut */
   padding-bottom: 10px !important; /* augmente la hauteur en bas */
-  background: #5fad71 !important;    /* vert personnalisé */
+  background: #6aae7a !important;    /* vert personnalisé */
 }
 
 /* Titres du footer */

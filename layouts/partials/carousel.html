@@ -11,21 +11,20 @@
                 data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_speed }}">
                 {{ range sort .Site.Data.carousel "weight" }}
                 <div class="item">
-                    {{ if .href }}
-                    <a href="{{ .href }}" target="_blank" title="{{ .title | safeHTML }}">
-                    {{ end }}
-                        <div class="row">
-                            <div class="col-sm-5 right">
-                                <h1>{{ .title | safeHTML }}</h1>
-                                {{ .description | safeHTML }}
-                            </div>
-                            <div class="col-sm-7">
-                                <img class="img-responsive" src="{{ .image }}" alt="">
-                            </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <img class="img-responsive" src="{{ .image }}" alt="" style="margin-left:250px;">
                         </div>
-                    {{ if .href }}
-                    </a>
-                    {{ end }}
+                        <div class="col-sm-5 right" style="display:flex;flex-direction:column;justify-content:center;align-items:flex-start;text-align:left; margin-left:-200px;">
+                            <h1>{{ .title | safeHTML }}</h1>
+                            {{ .description | safeHTML }}
+                            {{ if .detail_link }}
+                            <p>
+                                <a href="{{ .detail_link }}" class="btn btn-template-main" style="margin-top:10px;">詳細を見る</a>
+                            </p>
+                            {{ end }}
+                        </div>
+                    </div>
                 </div>
                 {{ end }}
             </div>

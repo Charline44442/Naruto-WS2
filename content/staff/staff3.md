@@ -5,5 +5,6 @@ profile_url = "https://researchmap.jp/read0019564"
 status = "岐阜大学教授・特命補佐（AI・DS推進担当：非常勤）"
 department = ""
 name = "益子　典文"
+name_alpha = "MASHIKO Norifumi"
 weight = 2
 +++

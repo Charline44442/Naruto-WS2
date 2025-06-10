@@ -1,4 +1,5 @@
 weight: 1
-title: "Welcome To Naruto University"
-description: "<p>Welcome :)<br>Are you happy to be here ?</p>"
+title: "New Service"
+description: "<p>-- <em>センターの紹介</em> --</p>"
 image: "img/carousel/mascotte1.png"
+detail_link: "/center/"
