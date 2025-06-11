@@ -124,10 +124,10 @@ pluralizelisttitles = false
     about_us = """<p class="text-uppercase"><strong>鳴門教育大学</strong>
         <br><strong>教師のためのAI・DS研究開発センター</strong>
         <br>〒772-8502 徳島県鳴門市鳴門町高島字中島748番地
-        <br>国立大学法人鳴門教育大学　地域連携センター2階セ202
+        <br>国立大学法人鳴門教育大学
       </p>
       """
-    copyright = "教師のためのAI・DS研究開発センター; all rights reserved."
+    copyright = "©Center for Educational Research and Development in AI and Data Science. All rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -140,7 +140,7 @@ pluralizelisttitles = false
     logo = "img/naruto-logo.jpg"
     logo_small = "img/naruto-logo.jpg"
     contact_url = "/contact" #changer le lien du bouton contact ?
-    address = """<p class="text-uppercase">
+    address = """<p>
         <br>経営企画戦略課：kikaku<img src="img/at.png" alt="@" style="height:1em;vertical-align:middle;">naruto-u.ac.jp
       </p>
       """
