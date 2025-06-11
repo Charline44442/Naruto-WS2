@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research on 教師のためのAI・DS研究開発センター</title>
-    <link>https://charline44442.github.io/erdads/research/</link>
+    <link>http://localhost:1313/research/</link>
     <description>Recent content in Research on 教師のためのAI・DS研究開発センター</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://charline44442.github.io/erdads/research/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ウェルビーイングサポートシステム等，AI・DSを活用した教育の高度化に関する研究</title>
-      <link>https://charline44442.github.io/erdads/research/research1/</link>
+      <link>http://localhost:1313/research/research1/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://charline44442.github.io/erdads/research/research1/</guid>
+      <guid>http://localhost:1313/research/research1/</guid>
       <description>研究のデスクリプション</description>
     </item>
     <item>
       <title>教員の「個別最適な学び」のための受講奨励支援システム(NDS：Naruto Dialogue System)に関する研究</title>
-      <link>https://charline44442.github.io/erdads/research/research2/</link>
+      <link>http://localhost:1313/research/research2/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://charline44442.github.io/erdads/research/research2/</guid>
+      <guid>http://localhost:1313/research/research2/</guid>
       <description>研究のデスクリプション</description>
     </item>
     <item>
       <title>教職肯定感に関する研究</title>
-      <link>https://charline44442.github.io/erdads/research/research3/</link>
+      <link>http://localhost:1313/research/research3/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://charline44442.github.io/erdads/research/research3/</guid>
+      <guid>http://localhost:1313/research/research3/</guid>
       <description>研究のデスクリプション</description>
     </item>
   </channel>

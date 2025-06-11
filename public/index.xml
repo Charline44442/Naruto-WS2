@@ -2,143 +2,143 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>教師のためのAI・DS研究開発センター</title>
-    <link>https://charline44442.github.io/erdads/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on 教師のためのAI・DS研究開発センター</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://charline44442.github.io/erdads/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ウェルビーイングサポートシステム等，AI・DSを活用した教育の高度化に関する研究</title>
-      <link>https://charline44442.github.io/erdads/research/research1/</link>
+      <link>http://localhost:1313/research/research1/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://charline44442.github.io/erdads/research/research1/</guid>
+      <guid>http://localhost:1313/research/research1/</guid>
       <description>研究のデスクリプション</description>
     </item>
     <item>
       <title>田中　弘之</title>
-      <link>https://charline44442.github.io/erdads/staff/staff1/</link>
+      <link>http://localhost:1313/staff/staff1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://charline44442.github.io/erdads/staff/staff1/</guid>
+      <guid>http://localhost:1313/staff/staff1/</guid>
       <description></description>
     </item>
     <item>
       <title>教員の「個別最適な学び」のための受講奨励支援システム(NDS：Naruto Dialogue System)に関する研究</title>
-      <link>https://charline44442.github.io/erdads/research/research2/</link>
+      <link>http://localhost:1313/research/research2/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://charline44442.github.io/erdads/research/research2/</guid>
+      <guid>http://localhost:1313/research/research2/</guid>
       <description>研究のデスクリプション</description>
     </item>
     <item>
       <title>益子　典文</title>
-      <link>https://charline44442.github.io/erdads/staff/staff3/</link>
+      <link>http://localhost:1313/staff/staff3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://charline44442.github.io/erdads/staff/staff3/</guid>
+      <guid>http://localhost:1313/staff/staff3/</guid>
       <description></description>
     </item>
     <item>
       <title>教職肯定感に関する研究</title>
-      <link>https://charline44442.github.io/erdads/research/research3/</link>
+      <link>http://localhost:1313/research/research3/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://charline44442.github.io/erdads/research/research3/</guid>
+      <guid>http://localhost:1313/research/research3/</guid>
       <description>研究のデスクリプション</description>
     </item>
     <item>
       <title>阪東　哲也</title>
-      <link>https://charline44442.github.io/erdads/staff/staff2/</link>
+      <link>http://localhost:1313/staff/staff2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://charline44442.github.io/erdads/staff/staff2/</guid>
+      <guid>http://localhost:1313/staff/staff2/</guid>
       <description></description>
     </item>
     <item>
       <title>石川　勝彦</title>
-      <link>https://charline44442.github.io/erdads/staff/staff4/</link>
+      <link>http://localhost:1313/staff/staff4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://charline44442.github.io/erdads/staff/staff4/</guid>
+      <guid>http://localhost:1313/staff/staff4/</guid>
       <description></description>
     </item>
     <item>
       <title>内田　香奈子</title>
-      <link>https://charline44442.github.io/erdads/staff/staff5/</link>
+      <link>http://localhost:1313/staff/staff5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://charline44442.github.io/erdads/staff/staff5/</guid>
+      <guid>http://localhost:1313/staff/staff5/</guid>
       <description></description>
     </item>
     <item>
       <title>内山　有美</title>
-      <link>https://charline44442.github.io/erdads/staff/staff6/</link>
+      <link>http://localhost:1313/staff/staff6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://charline44442.github.io/erdads/staff/staff6/</guid>
+      <guid>http://localhost:1313/staff/staff6/</guid>
       <description></description>
     </item>
     <item>
       <title>葛上　秀文</title>
-      <link>https://charline44442.github.io/erdads/staff/staff7/</link>
+      <link>http://localhost:1313/staff/staff7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://charline44442.github.io/erdads/staff/staff7/</guid>
+      <guid>http://localhost:1313/staff/staff7/</guid>
       <description></description>
     </item>
     <item>
       <title>坂本　有芳</title>
-      <link>https://charline44442.github.io/erdads/staff/staff8/</link>
+      <link>http://localhost:1313/staff/staff8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://charline44442.github.io/erdads/staff/staff8/</guid>
+      <guid>http://localhost:1313/staff/staff8/</guid>
       <description></description>
     </item>
     <item>
       <title>田中　晴喜</title>
-      <link>https://charline44442.github.io/erdads/staff/staff9/</link>
+      <link>http://localhost:1313/staff/staff9/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://charline44442.github.io/erdads/staff/staff9/</guid>
+      <guid>http://localhost:1313/staff/staff9/</guid>
       <description></description>
     </item>
     <item>
       <title>田中　義人</title>
-      <link>https://charline44442.github.io/erdads/staff/staff10/</link>
+      <link>http://localhost:1313/staff/staff10/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://charline44442.github.io/erdads/staff/staff10/</guid>
+      <guid>http://localhost:1313/staff/staff10/</guid>
       <description></description>
     </item>
     <item>
       <title>藤田　完</title>
-      <link>https://charline44442.github.io/erdads/staff/staff11/</link>
+      <link>http://localhost:1313/staff/staff11/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://charline44442.github.io/erdads/staff/staff11/</guid>
+      <guid>http://localhost:1313/staff/staff11/</guid>
       <description></description>
     </item>
     <item>
       <title>山崎　勝之</title>
-      <link>https://charline44442.github.io/erdads/staff/staff12/</link>
+      <link>http://localhost:1313/staff/staff12/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://charline44442.github.io/erdads/staff/staff12/</guid>
+      <guid>http://localhost:1313/staff/staff12/</guid>
       <description></description>
     </item>
     <item>
       <title>CARLOT Charline</title>
-      <link>https://charline44442.github.io/erdads/staff/staff13/</link>
+      <link>http://localhost:1313/staff/staff13/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://charline44442.github.io/erdads/staff/staff13/</guid>
+      <guid>http://localhost:1313/staff/staff13/</guid>
       <description></description>
     </item>
     <item>
       <title>藤崎　由基</title>
-      <link>https://charline44442.github.io/erdads/staff/staff14/</link>
+      <link>http://localhost:1313/staff/staff14/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://charline44442.github.io/erdads/staff/staff14/</guid>
+      <guid>http://localhost:1313/staff/staff14/</guid>
       <description></description>
     </item>
     <item>
       <title>【お知らせ】初ニュース</title>
-      <link>https://charline44442.github.io/erdads/blog/2021/08/01/post1/</link>
+      <link>http://localhost:1313/blog/2021/08/01/post1/</link>
       <pubDate>Sun, 01 Aug 2021 21:29:20 +0200</pubDate>
-      <guid>https://charline44442.github.io/erdads/blog/2021/08/01/post1/</guid>
+      <guid>http://localhost:1313/blog/2021/08/01/post1/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim. Ut ante turpis, tristique vitae sagittis quis, sagittis nec diam. Fusce pulvinar cursus porta. Vivamus maximus leo dolor, ut pellentesque lorem fringilla nec. Mauris faucibus turpis posuere sapien euismod, a ullamcorper mi maximus.&lt;/p&gt;</description>
     </item>
     <item>
       <title>教師のためのAI・DS研究開発センターについて</title>
-      <link>https://charline44442.github.io/erdads/center/</link>
+      <link>http://localhost:1313/center/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://charline44442.github.io/erdads/center/</guid>
+      <guid>http://localhost:1313/center/</guid>
       <description>&lt;h3 id=&#34;ミッション&#34;&gt;ミッション&lt;/h3&gt;&#xA;&lt;p&gt;AI・DS（人工知能・データサイエンス）の活用により、教師の専門性向上を支援する。&#xA;地域社会との共創を通じ、教育力の強化に貢献する。&lt;/p&gt;&#xA;&lt;h3 id=&#34;センターの目的&#34;&gt;センターの目的&lt;/h3&gt;&#xA;&lt;p&gt;センターは、教師が主体的・継続的に専門性を高めることを支援するため、&#xA;AI・DS活用に関する先導的な研究開発を推進します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;組織体制&#34;&gt;組織体制&lt;/h3&gt;&#xA;&lt;h2 id=&#34;センター本体&#34;&gt;センター本体&lt;/h2&gt;&#xA;&lt;p&gt;鳴門教育大学 教師のためのAI・DS研究開発センター（以下「センター」）&lt;/p&gt;&#xA;&lt;h2 id=&#34;プロジェクト管理室&#34;&gt;プロジェクト管理室&lt;/h2&gt;&#xA;&lt;p&gt;センターに設置される管理組織です。&#xA;プロジェクトの企画・進捗管理・研究戦略の推進を担います。&lt;/p&gt;&#xA;&lt;h2 id=&#34;研究開発分野&#34;&gt;研究開発分野&lt;/h2&gt;&#xA;&lt;p&gt;必要に応じて、センター内に複数の研究開発分野を設置します。&#xA;各分野が、テーマ別に先進的な教育・研究活動を進めます。&lt;/p&gt;&#xA;&lt;h3 id=&#34;運営体制&#34;&gt;運営体制&lt;/h3&gt;&#xA;&lt;p&gt;センター所長（副学長（研究・入試担当））&#xA;プロジェクト管理室長（特命補佐（AI・DS研究開発担当））&#xA;必要な教員・研究員を配置&#xA;外部有識者によるシニア・フェロー制度も設置&#xA;センターの重要事項は、センター運営会議において審議・決定されます。&lt;/p&gt;&#xA;&lt;h3 id=&#34;業務内容&#34;&gt;業務内容&lt;/h3&gt;&#xA;&lt;p&gt;AI・DS活用に関する研究開発&#xA;教職員研修等のモデル開発と応用研究&#xA;教育支援プログラムの開発と社会実装&#xA;その他、センター所長が必要と認めた事項&lt;/p&gt;</description>
     </item>
   </channel>
