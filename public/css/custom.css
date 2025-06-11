@@ -1,3 +1,20 @@
+/* your styles go here */
+/* Example site test */
+
+/*.box-image-text .image {
+    min-height: 190px;
+    max-height: 190px;
+} */
+
+/*.box-image-text .image img {
+    max-height: 190px;
+    margin: auto;
+} */
+
+/*.box-simple {
+    min-height: 230px;
+} */
+
 /* crumbread */
 
 #heading-breadcrumbs {
@@ -136,6 +153,12 @@
     margin: 15px 0;
 }
 
+/* Conteneur principal pour chaque membre */
+.staff-member {
+    position: relative; /* Permet de positionner les éléments enfants (photo et conteneur) */
+    margin-bottom: 30px;
+}
+
 /* Style pour le statut */
 .staff-status {
     font-size: 0.9em;
@@ -149,6 +172,13 @@
     font-size: 0.8em;
     color: #666;
     margin-bottom: 5px;
+}
+
+/* Style pour le nom */
+.staff-name {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #007bff;
 }
 
 /* Conteneur principal pour chaque recherche */
@@ -226,7 +256,7 @@
 #footer {
   padding-top: 10px !important;  /* augmente la hauteur en haut */
   padding-bottom: 10px !important; /* augmente la hauteur en bas */
-  background: #6aae7a !important;    /* vert personnalisé */
+  background: #5fad71 !important;    /* vert personnalisé */
 }
 
 /* Titres du footer */

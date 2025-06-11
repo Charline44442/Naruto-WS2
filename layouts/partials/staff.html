@@ -12,26 +12,50 @@
                 </p>
                 <!-- Liste des membres du staff -->
                 <div class="row">
-                    {{ range where .Site.RegularPages "Section" "staff" }}
-                    <div class="col-md-3 col-sm-6 staff-col">
-                        {{ if .Params.profile_url }}
-                        <a href="{{ .Params.profile_url }}" target="_blank" style="text-decoration:none; color:inherit; display:block;">
+                    {{ if .Site.Data.staff }}
+                        {{ range sort .Site.Data.staff "weight" }}
+                        <div class="col-md-3 col-sm-6 staff-col">
+                            {{ if .profile_url }}
+                            <a href="{{ .profile_url }}" target="_blank" style="text-decoration:none; color:inherit; display:block;">
+                            {{ end }}
+                                <div class="staff-member text-center" style="{{ if .profile_url }}cursor:pointer;{{ end }}">
+                                    <!-- Photo du staff -->
+                                    <div class="staff-photo">
+                                        <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive">
+                                    </div>
+                                    <!-- Conteneur pour les informations -->
+                                    <div class="staff-info staff-info-fixed">
+                                        <p class="staff-department">{{ .department }}</p>
+                                        <p class="staff-statut">{{ .status | safeHTML }}</p>
+                                        <p class="staff-name">{{ .name }}</p>
+                                        <p class="staff-name-alpha">{{ .name_alpha }}</p>
+                                    </div>
+                                </div>
+                            {{ if .profile_url }}</a>{{ end }}
+                        </div>
                         {{ end }}
-                            <div class="staff-member text-center" style="{{ if .Params.profile_url }}cursor:pointer;{{ end }}">
-                                <!-- Photo du staff -->
-                                <div class="staff-photo">
-                                    <img src="{{ .Params.image }}" alt="{{ .Params.name }}" class="img-responsive">
+                    {{ else }}
+                        {{ range where .Site.RegularPages "Section" "staff" }}
+                        <div class="col-md-3 col-sm-6 staff-col">
+                            {{ if .Params.profile_url }}
+                            <a href="{{ .Params.profile_url }}" target="_blank" style="text-decoration:none; color:inherit; display:block;">
+                            {{ end }}
+                                <div class="staff-member text-center" style="{{ if .Params.profile_url }}cursor:pointer;{{ end }}">
+                                    <!-- Photo du staff -->
+                                    <div class="staff-photo">
+                                        <img src="{{ .Params.image }}" alt="{{ .Params.name }}" class="img-responsive">
+                                    </div>
+                                    <!-- Conteneur pour les informations -->
+                                    <div class="staff-info staff-info-fixed">
+                                        <p class="staff-department">{{ .Params.department }}</p>
+                                        <p class="staff-statut">{{ .Params.status | safeHTML }}</p>
+                                        <p class="staff-name">{{ .Params.name }}</p>
+                                        <p class="staff-name-alpha">{{ .Params.name_alpha }}</p>
+                                    </div>
                                 </div>
-                                <!-- Conteneur pour les informations -->
-                                <div class="staff-info staff-info-fixed">
-                                    <p class="staff-department">{{ .Params.department }}</p>
-                                    <p class="staff-statut">{{ .Params.status | safeHTML }}</p>
-                                    <p class="staff-name">{{ .Params.name }}</p>
-                                    <p class="staff-name-alpha">{{ .Params.name_alpha }}</p>
-                                </div>
-                            </div>
-                        {{ if .Params.profile_url }}</a>{{ end }}
-                    </div>
+                            {{ if .Params.profile_url }}</a>{{ end }}
+                        </div>
+                        {{ end }}
                     {{ end }}
                 </div>
             </div>

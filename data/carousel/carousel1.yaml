@@ -2,4 +2,4 @@ weight: 1
 title: "New Service"
 description: "<p>-- <em>センターの紹介</em> --</p>"
 image: "img/carousel/mascotte1.png"
-detail_link: "/center/"
+detail_link: "/center/" 
