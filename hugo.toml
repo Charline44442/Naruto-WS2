@@ -6,6 +6,11 @@ languageCode = "ja"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "ja"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      
 # number of words of summarized post content (default 70)
 summaryLength = 70
 
