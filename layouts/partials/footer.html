@@ -47,7 +47,9 @@
         <div class="col-md-6 col-sm-6">
 
           <!--<h4>{{ i18n "contactTitle" }}</h4>-->
-            {{ .Site.Params.address | safeHTML }}
+            {{ $addr := .Site.Params.address }}
+            {{ $addr = replace $addr "img/at.png" ("img/at.png" | relURL) }}
+            {{ $addr | safeHTML }}
 
             <hr class="hidden-md hidden-lg hidden-sm">
 

@@ -259,6 +259,11 @@
   background: #5fad71 !important;    /* vert personnalisé */
 }
 
+.at-symbol {
+  height: 1em;
+  vertical-align: middle;
+}
+
 /* Titres du footer */
 #footer h4 {
   font-family: 'Montserrat', 'Arial', sans-serif;
