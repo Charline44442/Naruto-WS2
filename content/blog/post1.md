@@ -1,11 +1,15 @@
 +++
-title = "【お知らせ】初ニュース"
-date = "2021-08-01T21:29:20+02:00"
-tags = ["鳴門教育大学", "研究"]
-categories = ["研究","教育研究科"]
+title = "【お知らせ】教師のためのAI・DS研究開発センターが新設されました"
+date = "2025-04-01"
+tags = ["鳴門教育大学", "研究", "センター"]
+categories = ["研究","教育研究科", "センター"]
 banner = "img/banners/banner-4.jpg"
-authors = ["阪東哲也"]
+authors = [""]
 authorlink = "https://www.example.com"
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus. Pellentesque sed tempus risus. Proin id hendrerit ante. Vestibulum vitae urna ut mauris ultricies dignissim. Ut ante turpis, tristique vitae sagittis quis, sagittis nec diam. Fusce pulvinar cursus porta. Vivamus maximus leo dolor, ut pellentesque lorem fringilla nec. Mauris faucibus turpis posuere sapien euismod, a ullamcorper mi maximus.
+鳴門教育大学は、2025年4月1日より、新たな教育支援サービスとして「教師のためのAI・DS研究開発センター」が新設されました。
+
+本センターは、AI・データサイエンスを活用した教育の高度化を目指し、教師の専門性の向上や教育現場の支援を目的としています。
+
+より詳しい情報については、[こちらのページをご覧ください。](/erdads/center/)

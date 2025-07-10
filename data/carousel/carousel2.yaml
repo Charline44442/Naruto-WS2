@@ -1,5 +1,5 @@
 weight: 2
-title: "Projects"
-description: "<p>-- <em>研究の紹介</em> --</p>"
-image: "img/carousel/研究2.png"
-detail_link: "/research/"
+title: "第二研究"
+description: "<p><em>教員の「個別最適な学び」のための受講奨励支援システム(NDS：Naruto Dialogue System)に関する研究</em></p>"
+image: "img/Research2.png"
+detail_link: "research/"

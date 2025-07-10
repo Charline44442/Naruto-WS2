@@ -256,7 +256,7 @@
 }
 
 /* Personnalisation du bouton ニュースに戻る */
-a.btn.btn-success[href="/blog/"] {
+a.btn.btn-success {
   background-color: #226c3a !important;   /* Vert personnalisé */
   color: #fff !important; /* Texte blanc */
   border-radius: 25px; /* Bords arrondis */
@@ -268,7 +268,7 @@ a.btn.btn-success[href="/blog/"] {
   box-shadow: 0 2px 8px rgba(34,108,58,0.10);
   transition: background 0.2s;
 }
-a.btn.btn-success[href="/blog/"]:hover {
+a.btn.btn-success:hover {
   background-color: #409b55 !important;    /* Vert plus clair au survol */
   color: #fff !important;
   text-decoration: none;
