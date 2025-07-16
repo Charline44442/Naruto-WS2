@@ -47,9 +47,15 @@
                       {{ .Content }}
                     </div>
 
-                    <!-- Bouton retour à ニュース -->
+                    <!-- Bouton retour dynamique -->
                     <div style="text-align: right; margin-top: 40px;">
-                      <a href="/erdads/blog/" class="btn btn-success">ニュースに戻る</a>
+                      {{ if eq .Section "blog" }}
+                        <a href="/erdads/blog/" class="btn btn-success">ニュースに戻る</a>
+                      {{ else if eq .Section "research" }}
+                        <a href="/erdads/research/" class="btn btn-success">研究紹介に戻る</a>
+                      {{ else }}
+                        <a href="/" class="btn btn-success">トップに戻る</a>
+                      {{ end }}
                     </div>
 
                     <!-- Ajout d'un espace avant le footer -->
@@ -69,6 +75,7 @@
     <!-- /#all -->
 
     {{ partial "scripts.html" . }}
-
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
   </body>
 </html>

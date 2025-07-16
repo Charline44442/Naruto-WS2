@@ -6,5 +6,5 @@ status = "准教授"
 department = ""
 name = "田中　晴喜"
 name_alpha = "TANAKA Haruyoshi"
-weight = 9
+weight = 8
 +++

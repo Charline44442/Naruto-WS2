@@ -6,5 +6,5 @@ status = "教授"
 department = ""
 name = "葛上　秀文"
 name_alpha = "KUZUKAMI Hidefumi"
-weight = 7
+weight = 6
 +++

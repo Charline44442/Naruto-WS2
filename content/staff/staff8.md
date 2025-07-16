@@ -6,5 +6,5 @@ status = "教授"
 department = ""
 name = "坂本　有芳"
 name_alpha = "SAKAMOTO Yuka"
-weight = 8
+weight = 7
 +++

@@ -6,5 +6,5 @@ status = "特命教授"
 department = ""
 name = "山崎　勝之"
 name_alpha = "YAMASAKI Katsuyuki"
-weight = 12
+weight = 11
 +++

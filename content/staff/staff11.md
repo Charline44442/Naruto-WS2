@@ -6,5 +6,5 @@ status = "教授"
 department = ""
 name = "藤田　完"
 name_alpha = "FUJITA Mataki"
-weight = 11
+weight = 10
 +++

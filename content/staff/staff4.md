@@ -6,5 +6,5 @@ status = "講師"
 department = ""
 name = "石川　勝彦"
 name_alpha = "ISHIKAWA Katsuhiko"
-weight = 4
+weight = 3
 +++

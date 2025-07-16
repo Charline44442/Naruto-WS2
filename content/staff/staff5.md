@@ -6,5 +6,5 @@ status = "准教授"
 department = ""
 name = "内田　香奈子"
 name_alpha = "KANAKO Uchida"
-weight = 5
+weight = 4
 +++

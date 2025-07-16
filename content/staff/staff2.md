@@ -7,5 +7,5 @@ status = "プロジェクト管理室長<br>准教授"
 department = ""
 name = "阪東　哲也"
 name_alpha = "BANDO Tetsuya"
-weight = 3
+weight = 2
 +++
