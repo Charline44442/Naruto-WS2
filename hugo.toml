@@ -40,7 +40,7 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "ニュース"
     identifier = "menu.2"
-    url        = "/blog/"
+    url        = "/news/"
     weight     = 2
 
 #[[menu.main]]
@@ -99,11 +99,13 @@ pluralizelisttitles = false
     url = "mailto:hello@universal.com"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
-[params]   
-    viewMorePostLink = "/blog/"
+[params]
+    # Remplacer l'ancien lien du bouton "view more"
+    viewMorePostLink = "/news/"
     author = "DevCows"
     defaultKeywords = ["devcows", "hugo", "go"]
-    mainSections = ["blog"]
+    # Remplacer la section principale
+    mainSections = ["news"]
     defaultDescription = "Site template made by Devcows using Hugo"
 
     # Social media

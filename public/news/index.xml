@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>センター on 教師のためのAI・DS研究開発センター</title>
-    <link>http://localhost:1313/erdads/categories/%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/</link>
-    <description>Recent content in センター on 教師のためのAI・DS研究開発センター</description>
+    <title>News on 教師のためのAI・DS研究開発センター</title>
+    <link>http://localhost:1313/erdads/news/</link>
+    <description>Recent content in News on 教師のためのAI・DS研究開発センター</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/erdads/categories/%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/erdads/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【お知らせ】教師のためのAI・DS研究開発センターが新設されました</title>
       <link>http://localhost:1313/erdads/news/post1/</link>

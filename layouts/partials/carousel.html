@@ -24,12 +24,14 @@
                         padding:40px;
                         color:#222;
                     ">
-                    <h1>{{ .title | safeHTML }}</h1>
-                    {{ .description | safeHTML }}
+                    <h1 class="carousel-titre">{{ .title | safeHTML }}</h1>
+                    <div class="carousel-description">
+                      {{ .description | safeHTML }}
+                    </div>
                     {{ if .detail_link }}
-                      <p>
+                      <!-- /#footer <p>
                         <a href="{{ .detail_link | absURL }}" class="btn btn-template-main" style="margin-top:10px;">詳細を見る</a>
-                      </p>
+                      </p> -->
                     {{ end }}
                   </div>
                 </div>
