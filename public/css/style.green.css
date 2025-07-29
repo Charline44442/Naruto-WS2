@@ -1740,27 +1740,8 @@ fieldset[disabled] .btn-template-primary.active {
 .box.no-border {
   border: none;
 }
-#heading-breadcrumbs {
-  background:  #99cd95 !important; /* vert clair */
-  padding: 10px 0 !important;
-  margin-bottom: 40px !important;
-}
 #heading-breadcrumbs.no-mb {
   margin-bottom: 0;
-}
-#heading-breadcrumbs h1 {
-  color: #333333 !important; /* texte blanc */
-  text-transform: uppercase !important;
-  font-size: 30px !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.08em !important;
-  text-align: center !important;   /* centrer le titre */
-  margin-bottom: 10px !important;  /* espace sous le titre */
-}
-@media (max-width: 991px) {
-  #heading-breadcrumbs h1 {
-    text-align: center;
-  }
 }
 #heading-breadcrumbs ul.breadcrumb {
   margin-top: 5px;
