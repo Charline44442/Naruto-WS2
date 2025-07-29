@@ -147,7 +147,7 @@ pluralizelisttitles = false
     logo = "img/naruto-full-logo.png"
     logo_small = "img/naruto-logo.jpg"
     contact_url = "/contact" #changer le lien du bouton contact ?
-    address = "<p>経営企画戦略課：kikaku<img src=\"img/at.png\" alt=\"@\" class=\"at-symbol\">naruto-u.ac.jp</p>"
+    address = '''<p class="footer-contact">経営企画戦略課：kikaku<img src="img/at.png" alt="@" class="at-symbol">naruto-u.ac.jp</p>'''
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:filename/"

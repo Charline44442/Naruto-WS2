@@ -349,3 +349,26 @@ a.btn.btn-success:hover {
 .navbar .navbar-buttons button.navbar-toggle i {
   font-size: 1.8em; /* plus grand, par exemple 1.8em au lieu de 1em */
 }
+
+/* Footer */
+
+@media screen and (max-width: 768px) {
+  #footer {
+    font-size: 0.75em;
+  }
+
+  .footer-copyright {
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-about,
+  .footer-address {
+    width: 100%;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    box-sizing: border-box;
+  }
+}
