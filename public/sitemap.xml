@@ -4,37 +4,9 @@
   <url>
     <loc>http://localhost:1313/erdads/research/research1/</loc>
   </url><url>
-    <loc>http://localhost:1313/erdads/staff/staff1/</loc>
-  </url><url>
     <loc>http://localhost:1313/erdads/research/research2/</loc>
   </url><url>
-    <loc>http://localhost:1313/erdads/staff/staff2/</loc>
-  </url><url>
     <loc>http://localhost:1313/erdads/research/research3/</loc>
-  </url><url>
-    <loc>http://localhost:1313/erdads/staff/staff4/</loc>
-  </url><url>
-    <loc>http://localhost:1313/erdads/staff/staff5/</loc>
-  </url><url>
-    <loc>http://localhost:1313/erdads/staff/staff6/</loc>
-  </url><url>
-    <loc>http://localhost:1313/erdads/staff/staff7/</loc>
-  </url><url>
-    <loc>http://localhost:1313/erdads/staff/staff8/</loc>
-  </url><url>
-    <loc>http://localhost:1313/erdads/staff/staff9/</loc>
-  </url><url>
-    <loc>http://localhost:1313/erdads/staff/staff10/</loc>
-  </url><url>
-    <loc>http://localhost:1313/erdads/staff/staff11/</loc>
-  </url><url>
-    <loc>http://localhost:1313/erdads/staff/staff12/</loc>
-  </url><url>
-    <loc>http://localhost:1313/erdads/staff/staff3/</loc>
-  </url><url>
-    <loc>http://localhost:1313/erdads/staff/staff13/</loc>
-  </url><url>
-    <loc>http://localhost:1313/erdads/staff/staff14/</loc>
   </url><url>
     <loc>http://localhost:1313/erdads/news/post1/</loc>
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
@@ -72,8 +44,6 @@
     <loc>http://localhost:1313/erdads/authors/</loc>
   </url><url>
     <loc>http://localhost:1313/erdads/research/</loc>
-  </url><url>
-    <loc>http://localhost:1313/erdads/staff/</loc>
   </url><url>
     <loc>http://localhost:1313/erdads/center/</loc>
   </url>

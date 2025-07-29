@@ -6,24 +6,14 @@
                 <!-- Liste des recherches -->
                 <div class="row">
                     {{ range where .Site.RegularPages "Section" "research" }}
-                    <div class="col-md-4 col-sm-6" style="position:relative; padding:20px;">
-                        <div class="research-item text-center" style="background:none; box-shadow:none; border:none; position:relative; padding:0;">
+                    <div class="col-md-4 col-sm-6 research-block">
+                        <div class="research-item text-center">
                             <!-- Image non cliquable -->
                             {{ if .Params.image }}
-                            <div class="research-photo" style="position:relative;">
-                                <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="img-responsive" style="border-radius:0; width:100%; height:auto; margin:0;">
-                                <!-- Overlay texte -->
-                                <div style="
-                                    position:absolute;
-                                    top:50%; left:0; width:100%; height:35%;
-                                    background:rgba(255,255,255,0.7);
-                                    display:flex;
-                                    flex-direction:column;
-                                    justify-content:center;
-                                    align-items:center;
-                                    padding:20px;
-                                ">
-                                    <h3 style="margin-top:0;">{{ .Title }}</h3>
+                            <div class="research-photo">
+                                <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="img-responsive research-img">
+                                <div class="research-overlay">
+                                    <h3>{{ .Title }}</h3>
                                 </div>
                             </div>
                             {{ end }}
@@ -35,3 +25,4 @@
         </div>
     </div>
 </section>
+
