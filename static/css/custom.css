@@ -305,13 +305,13 @@
   }
 
   .research-overlay {
-    width: 95%;
-    height: 50%;
+    width: 80%;
+    height: 30%;
     padding: 6px;
   }
 
   .research-overlay h3 {
-    font-size: 0.9em;
+    font-size: 0.75em;
   }
 
   .col-md-4.col-sm-6 {
