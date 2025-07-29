@@ -51,6 +51,14 @@
     margin-top: -12px; /* décale vers le haut (augmente la valeur si besoin) */
 }
 
+/* règle spécifique pour smartphone */
+@media screen and (max-width: 450px) {
+    .navbar-logo {
+        max-height: 40px !important; /* ou une valeur encore plus petite si besoin */
+        margin-top: -6px; /* ajuste le décalage si nécessaire */
+    }
+}
+
 .navbar-header {
     display: flex; /* Aligne le logo et le texte horizontalement */
     align-items: center; /* Centre verticalement le texte par rapport au logo */
