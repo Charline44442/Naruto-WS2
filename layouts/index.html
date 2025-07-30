@@ -26,7 +26,21 @@
     <!-- /#all -->
 
     {{ partial "scripts.html" . }}
-    <script src="/js/jquery-3.6.0.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <!-- 1. jQuery -->
+    <script src="{{ "js/jquery-3.6.0.min.js" | relURL }}"></script>
+    <script src="{{ "js/jquery.waypoints.min.js" | relURL }}"></script>
+    <script src="{{ "js/jquery.counterup.min.js" | relURL }}"></script>
+    <!-- 2. Owl Carousel (ou tout autre plugin jQuery externe) -->
+    <script src="{{ "js/owl.carousel.min.js" | relURL }}"></script> <!-- si tu utilises Owl -->
+
+    <!-- 3. Bootstrap -->
+    <script src="{{ "js/bootstrap.min.js" | relURL }}"></script>
+    <script src="{{ "js/jquery.cookie.min.js" | relURL }}"></script>
+    <!-- 4. Ton JS de thème (ex : front.js) -->
+    <script src="{{ "js/my-front.js" | relURL }}"></script>
+
+    <!-- 5. Optionnel : ton JS personnalisé -->
+    <script src="{{ "js/main.js" | relURL }}"></script>
+
   </body>
 </html>
