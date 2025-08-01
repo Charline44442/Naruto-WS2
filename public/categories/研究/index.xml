@@ -6,8 +6,15 @@
     <description>Recent content in 研究 on 教師のためのAI・DS研究開発センター</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/erdads/categories/%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【教師研修】第50回 鳴門教育大学教育・文化フォーラムの教育データサイエンス入門</title>
+      <link>http://localhost:1313/erdads/news/post2/</link>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/erdads/news/post2/</guid>
+      <description>&lt;p&gt;2025年7月30日（水）、鳴門教育大学主催による「第50回 教育・文化フォーラム」の初日が開催されました。&#xA;今回のテーマは「教育データサイエンス入門」です。&lt;/p&gt;&#xA;&lt;p&gt;当日は、石川先生と阪東先生が講師を務め、参加者である教員の皆様に向けて、教育データサイエンスの基礎を学ぶ研修が行われました。&lt;/p&gt;&#xA;&lt;table style=&#34;width:100%; margin-left: auto; margin-right: auto; border-collapse: separate; border-spacing: 0 10px;&#34;&gt;&#xD;&#xA;  &lt;tr&gt;&#xD;&#xA;    &lt;td style=&#34;&#xD;&#xA;      background-color:#A5D6A7;&#xD;&#xA;      text-align:center;&#xD;&#xA;      font-size:1.5em;&#xD;&#xA;      font-weight:bold;&#xD;&#xA;      padding:15px;&#xD;&#xA;    &#34;&gt;&#xD;&#xA;      午前：データサイエンスがやること&#xD;&#xA;    &lt;/td&gt;&#xD;&#xA;  &lt;/tr&gt;&#xD;&#xA;  &lt;tr&gt;&#xD;&#xA;    &lt;td style=&#34;padding:15px; font-size:1em; line-height:1.8;&#34;&gt;&#xD;&#xA;      午前のセッションでは、まず石川先生による「データサイエンスとは何か」に関する講義が行われました。&lt;br&gt;&#xD;&#xA;      参加者同士が意見交換を行いながら、教育現場におけるデータ活用の可能性について深める貴重な時間となりました。データの構造を理解し、問題解決には関連する変数や要因の関係性を探る必要があることをディスカッション形式で学びました。&lt;br&gt;&#xD;&#xA;      (写真)&lt;br&gt;&#xD;&#xA;      その後、午後のセッションへの導入として、教育DXのミッション・ビジョンをテーマにした講義が行われました。&#xD;&#xA;　　  &lt;/tr&gt;&#xD;&#xA;&lt;/table&gt;&#xD;&#xA;&lt;table style=&#34;width:100%; margin-left: auto; margin-right: auto; border-collapse: separate; border-spacing: 0 10px;&#34;&gt;&#xD;&#xA;  &lt;tr&gt;&#xD;&#xA;    &lt;td style=&#34;&#xD;&#xA;      background-color:#A5D6A7;&#xD;&#xA;      text-align:center;&#xD;&#xA;      font-size:1.5em;&#xD;&#xA;      font-weight:bold;&#xD;&#xA;      padding:15px;&#xD;&#xA;    &#34;&gt;&#xD;&#xA;      午後：教育データサイエンス入門・実習&#xD;&#xA;    &lt;/td&gt;&#xD;&#xA;  &lt;/tr&gt;&#xD;&#xA;  &lt;tr&gt;&#xD;&#xA;    &lt;td style=&#34;padding:15px; font-size:1em; line-height:1.8;&#34;&gt;&#xD;&#xA;      午後のセッションでは、LMS（学習管理システム）を活用したデータの収集とデータの可視化について理解を深めることが目的とされました。&lt;br&gt;&#xD;&#xA;      まず、参加者はグループに分かれ、Moodleの基本機能や活用方法を実際に操作する演習を通じて体験しました。&lt;br&gt;&#xD;&#xA;      その後、オープンソースの可視化ツール Supersetの紹介が行われ、データの可視化やインタラクティブな分析方法について学ぶ機会が提供されました。&lt;br&gt;&#xD;&#xA;      最後に、協議の時間が設けられ、参加者は、生徒や教職員の学習・勤務環境の改善に向けて、学校現場でどのようなデータを収集すべきかについて活発に意見交換を行いました。&#xD;&#xA;    &lt;/td&gt;&#xD;&#xA;  &lt;/tr&gt;&#xD;&#xA;&lt;/table&gt;&#xD;&#xA;&lt;p&gt;🔗イベントの詳細：(&lt;a href=&#34;https://www.naruto-u.ac.jp/research/04/003.html&#34;&gt;https://www.naruto-u.ac.jp/research/04/003.html&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
     <item>
       <title>【お知らせ】教師のためのAI・DS研究開発センターが新設されました</title>
       <link>http://localhost:1313/erdads/news/post1/</link>

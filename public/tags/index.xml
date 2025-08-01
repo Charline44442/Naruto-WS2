@@ -6,13 +6,27 @@
     <description>Recent content in Tags on 教師のためのAI・DS研究開発センター</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 01 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/erdads/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>センター</title>
       <link>http://localhost:1313/erdads/tags/%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/</link>
-      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/erdads/tags/%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>研修</title>
+      <link>http://localhost:1313/erdads/tags/%E7%A0%94%E4%BF%AE/</link>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/erdads/tags/%E7%A0%94%E4%BF%AE/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>鳴門教育大学</title>
+      <link>http://localhost:1313/erdads/tags/%E9%B3%B4%E9%96%80%E6%95%99%E8%82%B2%E5%A4%A7%E5%AD%A6/</link>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/erdads/tags/%E9%B3%B4%E9%96%80%E6%95%99%E8%82%B2%E5%A4%A7%E5%AD%A6/</guid>
       <description></description>
     </item>
     <item>
@@ -20,13 +34,6 @@
       <link>http://localhost:1313/erdads/tags/%E7%A0%94%E7%A9%B6/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/erdads/tags/%E7%A0%94%E7%A9%B6/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>鳴門教育大学</title>
-      <link>http://localhost:1313/erdads/tags/%E9%B3%B4%E9%96%80%E6%95%99%E8%82%B2%E5%A4%A7%E5%AD%A6/</link>
-      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/erdads/tags/%E9%B3%B4%E9%96%80%E6%95%99%E8%82%B2%E5%A4%A7%E5%AD%A6/</guid>
       <description></description>
     </item>
   </channel>

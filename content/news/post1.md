@@ -6,6 +6,7 @@ categories = ["研究","教育研究科", "センター"]
 banner = "img/banners/banner-4.jpg"
 authors = [""]
 authorlink = "https://www.example.com"
+draft = false
 +++
 
 鳴門教育大学は、2025年4月1日より、新たな教育支援サービスとして「教師のためのAI・DS研究開発センター」が新設されました。

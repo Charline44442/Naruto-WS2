@@ -8,37 +8,43 @@
   </url><url>
     <loc>http://localhost:1313/erdads/research/research3/</loc>
   </url><url>
+    <loc>http://localhost:1313/erdads/news/post2/</loc>
+    <lastmod>2025-07-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/erdads/categories/</loc>
+    <lastmod>2025-07-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/erdads/news/</loc>
+    <lastmod>2025-07-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/erdads/tags/</loc>
+    <lastmod>2025-07-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/erdads/categories/%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/</loc>
+    <lastmod>2025-07-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/erdads/tags/%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/</loc>
+    <lastmod>2025-07-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/erdads/categories/%E6%95%99%E8%82%B2%E7%A0%94%E7%A9%B6%E7%A7%91/</loc>
+    <lastmod>2025-07-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/erdads/</loc>
+    <lastmod>2025-07-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/erdads/categories/%E7%A0%94%E7%A9%B6/</loc>
+    <lastmod>2025-07-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/erdads/tags/%E7%A0%94%E4%BF%AE/</loc>
+    <lastmod>2025-07-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/erdads/tags/%E9%B3%B4%E9%96%80%E6%95%99%E8%82%B2%E5%A4%A7%E5%AD%A6/</loc>
+    <lastmod>2025-07-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/erdads/news/post1/</loc>
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/erdads/categories/</loc>
-    <lastmod>2025-04-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/erdads/news/</loc>
-    <lastmod>2025-04-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/erdads/tags/</loc>
-    <lastmod>2025-04-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/erdads/categories/%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/</loc>
-    <lastmod>2025-04-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/erdads/tags/%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC/</loc>
-    <lastmod>2025-04-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/erdads/categories/%E6%95%99%E8%82%B2%E7%A0%94%E7%A9%B6%E7%A7%91/</loc>
-    <lastmod>2025-04-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/erdads/</loc>
-    <lastmod>2025-04-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/erdads/categories/%E7%A0%94%E7%A9%B6/</loc>
-    <lastmod>2025-04-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/erdads/tags/%E7%A0%94%E7%A9%B6/</loc>
-    <lastmod>2025-04-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/erdads/tags/%E9%B3%B4%E9%96%80%E6%95%99%E8%82%B2%E5%A4%A7%E5%AD%A6/</loc>
     <lastmod>2025-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/erdads/authors/</loc>
