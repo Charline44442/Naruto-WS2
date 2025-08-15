@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Researches on 教師のためのAI・DS研究開発センター</title>
-    <link>http://localhost:1313/erdads/research/</link>
+    <link>https://charline-naruto.github.io/Naruto-website/research/</link>
     <description>Recent content in Researches on 教師のためのAI・DS研究開発センター</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <atom:link href="http://localhost:1313/erdads/research/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://charline-naruto.github.io/Naruto-website/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ウェルビーイングサポートシステム等，AI・DSを活用した教育の高度化に関する研究</title>
-      <link>http://localhost:1313/erdads/research/research1/</link>
+      <link>https://charline-naruto.github.io/Naruto-website/research/research1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/erdads/research/research1/</guid>
+      <guid>https://charline-naruto.github.io/Naruto-website/research/research1/</guid>
       <description>&lt;p&gt;Voici la description complète de mon projet de recherche.&lt;br&gt;&#xA;Tu peux ajouter des paragraphes, des listes, des images supplémentaires, etc.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Objectifs du projet&lt;/li&gt;&#xA;&lt;li&gt;Méthodologie&lt;/li&gt;&#xA;&lt;li&gt;Résultats attendus&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>教員の「個別最適な学び」のための受講奨励支援システム(NDS：Naruto Dialogue System)に関する研究</title>
-      <link>http://localhost:1313/erdads/research/research2/</link>
+      <link>https://charline-naruto.github.io/Naruto-website/research/research2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/erdads/research/research2/</guid>
+      <guid>https://charline-naruto.github.io/Naruto-website/research/research2/</guid>
       <description></description>
     </item>
     <item>
       <title>教職肯定感に関する研究</title>
-      <link>http://localhost:1313/erdads/research/research3/</link>
+      <link>https://charline-naruto.github.io/Naruto-website/research/research3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/erdads/research/research3/</guid>
+      <guid>https://charline-naruto.github.io/Naruto-website/research/research3/</guid>
       <description></description>
     </item>
   </channel>
