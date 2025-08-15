@@ -1,4 +1,5 @@
 baseURL = "https://charline-naruto.github.io/Naruto-website/"
+
 title = "教師のためのAI・DS研究開発センター"
 theme = "hugo-universal-theme"
 themesDir = "themes"
