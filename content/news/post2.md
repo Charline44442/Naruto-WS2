@@ -24,7 +24,7 @@ draft = false
   <tr>
     <td style="padding:15px; font-size:1em; line-height:1.8;">
       <div style="display: flex; justify-content: center; gap: 15px; margin-top: 20px;">
-        <img src="/erdads/img/formation-picture0.jpg" alt="活動の様子1" style="width: 30%; max-width: 250px; border-radius: 8px;" />
+        <img src="{{ "img/formation-picture0.jpg" | relURL }}" alt="活動の様子1" style="width: 30%; max-width: 250px; border-radius: 8px;" />
         <img src="/erdads/img/formation-picture2.jpg" alt="活動の様子2" style="width: 30%; max-width: 250px; border-radius: 8px;" />
         <img src="/erdads/img/formation-picture9.jpg" alt="活動の様子3" style="width: 30%; max-width: 250px; border-radius: 8px;" />
       </div>
